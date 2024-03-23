@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Contact</title>
+    <link rel="icon" type="image/jpg" href="./favicon/favicons.ico"/>
+</head>
+<body>
+    <div style="background-color:#56aa9c;padding: 1px;">
+    <h1>Formulario de inscripción</h1>
+    </div>
+    <br>
+    <form>
+        <table border="3">
+            <tr>
+                <td>
+                    <label for="nomb"> Nombre:</label>
+                    <input type="text" id="nomb" name="nomb">
+                </td>
+                <td>
+                    <label for="apel"> Apellido:</label>
+                    <input type="text" id="apel" name="apel">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fecha"> Fecha de nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha">
+                </td>
+                <td>
+                    <label for="nacion"> Nacionalidad:</label>
+                    <input type="text" id="nacion" name="nacion">
+                </td>               
+            </tr>
+            <tr>
+                <td>
+                    <label for="docu">Tipo documento:</label>
+                    <select name="docu" id="docu">
+                        <option value="Dni">Dni</option>
+                        <option value="LE">LE</option>
+                        <option value="Pas">Pas</option>                    
+                    </select>
+                </td>
+                <td>
+                    <label for="docunum"> Numero:</label>
+                    <input type="number" id="docunum" name="docunum">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="correo"> Email:</label>
+                    <input type="email" id="correo" name="correo">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><h4>Domicilio</h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="calle"> Calle:</label>
+                    <input type="text" id="calle" name="calle">
+                </td>
+                <td>
+                    <label for="nume"> Numero:</label>
+                    <input type="number" id="nume" name="nume">
+                </td>               
+            </tr>            
+            <tr>
+                <td>
+                    <h4>Materia a inscribirse</h4>
+                    <input type="radio" name="opcion" value="1" >Ingles
+                    <input type="radio" name="opcion" value="2" >Frances
+                    <input type="radio" name="opcion" value="3" >Portugues
+                </td>
+                <td>
+                    <h4>Nivel previo</h4>
+                    <input type="radio" name="opcion" value="1" >Ninguno
+                    <input type="radio" name="opcion" value="2" >Basico
+                    <input type="radio" name="opcion" value="3" >Intermedio
+                    <input type="radio" name="opcion" value="4" >Avanzado
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><br><input type="submit" value="submit">
+            </tr>       
+        </table>          
+    </form>
+    <br>
+    <a href="./tablaferiados.html">Ver Tabla de feriados 2024 y sus regulaciones</a>
+    <br>
+    <a href="./recetabudin.html">Ver receta busdin de banana</a>
+</body>
+</html>
