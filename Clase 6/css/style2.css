@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    font: 85% Arial;
+    color: rgba(4, 12, 3, 0.973);
+    background-color:rgb(173, 207, 150);
+}
+
+h1,h2 {    
+    text-align: left;
+    color:rgb(2, 2, 61);
+    background-color:antiquewhite;
+}
+
+#importante {
+    text-decoration:underline;
+    background-color:antiquewhite;
+}
